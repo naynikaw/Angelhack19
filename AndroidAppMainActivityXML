@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    tools:context=".MainActivity">
+
+    <com.ebanx.swipebtn.SwipeButton
+        android:id="@+id/swipe_me"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        app:button_bottom_padding="20dp"
+        app:button_image_disabled="@drawable/ic_sentiment_satisfied"
+        app:button_image_enabled="@drawable/ic_sentiment_very_dissatisfied"
+        app:button_left_padding="20dp"
+        app:button_right_padding="20dp"
+        app:button_top_padding="20dp"
+
+        app:inner_text="Swipe up for SOS"
+        app:inner_text_background="@android:color/white"
+        app:inner_text_bottom_padding="20dp"
+        app:inner_text_color="@android:color/holo_red_dark"
+        app:inner_text_size="18sp"
+        app:inner_text_top_padding="20dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="78dp"
+            android:layout_marginLeft="78dp"
+            android:layout_marginTop="66dp"
+            android:layout_marginEnd="77dp"
+            android:layout_marginRight="77dp"
+            android:layout_marginBottom="433dp"
+            app:srcCompat="@drawable/logo" />
+
+    </com.ebanx.swipebtn.SwipeButton>
+</RelativeLayout>
